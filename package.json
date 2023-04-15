@@ -4,11 +4,18 @@
   "description": "",
   "private": true,
   "dependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/generator": "^7.21.4",
+    "@babel/parser": "^7.21.4",
+    "@babel/template": "^7.20.7",
+    "@babel/traverse": "^7.21.4",
+    "@babel/types": "^7.21.4",
     "@midwayjs/bootstrap": "^2.3.0",
     "@midwayjs/core": "^2.3.0",
     "@midwayjs/decorator": "^2.3.0",
     "@midwayjs/koa": "^2.3.0",
-    "koa-bodyparser": "^4.3.0"
+    "koa-bodyparser": "^4.3.0",
+    "lodash-es": "^4.17.21"
   },
   "devDependencies": {
     "@midwayjs/cli": "^1.0.0",
